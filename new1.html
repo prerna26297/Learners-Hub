@@ -1,0 +1,121 @@
+<table> 
+        <tr> 
+            <th>Name</th> 
+            <th>Author's name</th> 
+            <th>Price</th> 
+            <th>Add to cart</th> 
+			<th>Buy</TH>
+        </tr> 
+        <tr> 
+            <td>Harry Potter</td> 
+            <td>J.K Rowling</td> 
+            <td>350</th> 
+            <td><a href="#">Add to cart</a></td> 
+			 <td><a href="books.php">Buy</a></td> 
+			
+        </tr> 
+         <tr> 
+            <td>Science Immunology</td> 
+            <td>Xin Li</td> 
+            <td>420</th> 
+            <td><a href="#">Add to cart</a></td>
+			<td><a href="books.php">Buy</a></td> 
+        </tr>
+<tr> 
+            <td>A Brief History Of Time</td> 
+            <td>Stephen Hawkings</td> 
+            <td>320</th> 
+            <td><a href="#">Add to cart</a></td>
+			<td><a href="books.php">Buy</a></td> 
+        </tr> 
+<tr> 
+            <td>Echo Park</td> 
+            <td>Michael Connelly</td> 
+            <td>425</th> 
+            <td><a href="#">Add to cart</a></td>
+			<td><a href="books.php">Buy</a></td> 
+        </tr> 
+<tr> 
+            <td>World is Flat</td> 
+            <td>Thomas L. Friedman</td> 
+            <td>200</th> 
+            <td><a href="#">Add to cart</a></td>
+			<td><a href="books.php">Buy</a></td> 
+        </tr> 
+<tr> 
+            <td>Act of Treason</td> 
+            <td>Vince Flynn</td> 
+            <td>600</th> 
+            <td><a href="#">Add to cart</a></td>
+			<td><a href="books.php">Buy</a></td> 
+        </tr> 		
+		<tr> 
+            <td>The Elegant Universe</td> 
+            <td>Brian Greene</td> 
+            <td>300</th> 
+            <td><a href="#">Add to cart</a></td>
+			<td><a href="books.php">Buy</a></td> 
+        </tr> 
+		<tr> 
+            <td>Freakonomics</td> 
+            <td>Steven & Stephen</td> 
+            <td>440</th> 
+            <td><a href="#">Add to cart</a></td>
+			<td><a href="books.php">Buy</a></td> 
+        </tr> 
+    </table>
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<form method="POST" action="books.php" align="center">
+<p font color="white">Book name:</p><br>
+<select name="bookname">
+<option value="Harry Potter">Harry Potter</option>
+<option value="Science Immunology">Science Immunology</option>
+<option value="A Brief History of Time">A Brief History of Time</option>
+<option value="Echo Park">Echo Park</option>
+<option value="The World Is Flat">The World Is Flat</option>
+<option value="Act of Treason">Act of Treason</option>
+<option value="The Elegant Universe">The Elegant Universe</option>
+<option value="Freakonomics">Freakonomics</option>
+</select><br><br>
+<p font color="white">No. of copies:</p><br>
+<input type="number" name="noc"><br><br>
+<input type="Submit" value="Submit">
+</form>
+</center><br>
+<br></div>
+
+
+
+	$USERID=$row["userid"];
+			$_SESSION["USERID"]=$USERID;

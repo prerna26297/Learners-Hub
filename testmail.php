@@ -1,0 +1,1 @@
+<?php include("PHPMailerMaster/PHPMailer.php"); $mail = new PHPMailer(); ?>
